@@ -1,4 +1,4 @@
-class Hero {
+class hero {
     constructor(name, age, type) {
       this.name = name;
       this.age = age;
@@ -28,10 +28,10 @@ class Hero {
     }
   }
   
-  const heroMago = new Hero('Merlin', 300, 'mago');
-  const heroGuerreiro = new Hero('Hercules', 35, 'guerreiro');
-  const heroMonge = new Hero('Frei Deivid', 46, 'monge');
-  const heroNinja = new Hero('Sasuke', 30, 'ninja');
+  const heroMago = new hero('Merlin', 300, 'mago');
+  const heroGuerreiro = new hero('Hercules', 35, 'guerreiro');
+  const heroMonge = new hero('Frei Deivid', 46, 'monge');
+  const heroNinja = new hero('Sasuke', 30, 'ninja');
   
   heroMago.attackOut();
   heroGuerreiro.attackOut();
