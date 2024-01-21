@@ -31,7 +31,7 @@ class Hero {
   const heroMago = new Hero('Merlin', 300, 'mago');
   const heroGuerreiro = new Hero('Hercules', 35, 'guerreiro');
   const heroMonge = new Hero('Frei Deivid', 46, 'monge');
-  const heroNinja = new Hero('Neji', 30, 'ninja');
+  const heroNinja = new Hero('Sasuke', 30, 'ninja');
   
   heroMago.doAttack();
   heroGuerreiro.doAttack();
