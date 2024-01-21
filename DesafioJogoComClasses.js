@@ -5,7 +5,7 @@ class Hero {
       this.type = type;
     }
   
-    doAttack() {
+    attackOut() {
       let attack;
       switch (this.type) {
         case 'mago':
@@ -33,7 +33,7 @@ class Hero {
   const heroMonge = new Hero('Frei Deivid', 46, 'monge');
   const heroNinja = new Hero('Sasuke', 30, 'ninja');
   
-  heroMago.doAttack();
-  heroGuerreiro.doAttack();
-  heroMonge.doAttack();
-  heroNinja.doAttack();
+  heroMago.attackOut();
+  heroGuerreiro.attackOut();
+  heroMonge.attackOut();
+  heroNinja.attackOut();
