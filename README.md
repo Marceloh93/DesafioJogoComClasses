@@ -1,4 +1,4 @@
-# DesafioJogoComClasses
+# Desafio de Jogo com Classes e Objetos
 Desafio do iFood Bootcamp Programação do Zero, DIO
 
 Escrevendo as classes de um Jogo
